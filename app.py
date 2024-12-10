@@ -14,11 +14,13 @@ def chatbot():
         return jsonify({"error": "No message provided"}), 400
 
     try:
-        response = openai.Completion.create(
-            engine="text-davinci-003",
-            prompt=user_message,
-            max_tokens=100
-        )
+        response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Hello!"}
+    ]
+)
         bot_reply = response.choices[0].text.strip()
         return jsonify({"reply": bot_reply})
     except Exception as e:
