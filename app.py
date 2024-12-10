@@ -21,7 +21,7 @@ def chatbot():
         {"role": "user", "content": "Hello!"}
     ]
 )
-        bot_reply = response.choices[0].text.strip()
+        bot_reply = response["choices"][0]["message"]["content"].strip()
         return jsonify({"reply": bot_reply})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
