@@ -24,9 +24,18 @@ def chatbot():
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": user_message}  # Use the user's message dynamically
-            ]
+    {
+        "role": "system",
+        "content": (
+            "You are the AI chatbot for Plan2Peak. Plan2Peak specializes in personalized health and performance "
+            "coaching for athletes, patients, and healthcare providers. Your role is to provide responses that "
+            "reflect Plan2Peak's philosophy, services, and approach. Always refer users to Plan2Peak's specific "
+            "offerings when discussing programs, patient services, or coaching."
+        )
+    },
+    {"role": "user", "content": user_message}  # Use the user's message dynamically
+]
+
         )
         # Extract the reply from OpenAI's response
         bot_reply = response["choices"][0]["message"]["content"].strip()
