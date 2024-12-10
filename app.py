@@ -7,6 +7,10 @@ app = Flask(__name__)
 import os
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({"message": "Welcome to the chatbot API! Please use a POST request to interact with the chatbot."}), 200
+
 @app.route("/", methods=["POST"])
 def chatbot():
     user_message = request.json.get("message")
