@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Replace 'your-openai-api-key' with your actual API key from OpenAI
 import os
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @app.route("/", methods=["POST"])
 def chatbot():
