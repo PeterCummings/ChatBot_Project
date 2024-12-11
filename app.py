@@ -15,7 +15,7 @@ knowledge_base = {
     "Does Peter have any peer-reviewed publications?": "Yes, Peter is the lead author of two peer-reviewed articles in the American Journal of Preventive Medicine. These articles focus on lifestyle therapy and diabetes remission through personalized health interventions.",
     "What services does Plan2Peak provide?": "Plan2Peak offers personalized health and performance coaching for athletes, patients, and healthcare providers. Services include exercise prescription, metabolic health coaching, remote therapeutic monitoring, and athlete training plans tailored to individual goals.",
     "What is remote therapeutic monitoring (RTM)?": "RTM integrates Plan2Peak with healthcare providers to provide ongoing monitoring and coaching for patients. It supports managing chronic conditions like diabetes, obesity, and metabolic syndrome, while enabling providers to leverage insurance CPT codes for reimbursement.",
-    "How do I get started with Plan2Peak?": "To begin, schedule a free consultation or complete our intake forms. This helps us understand your goals and create a personalized plan. You can [schedule here](https://hipaa.jotform.com/app/242034369870156/210655982190156) or [complete intake forms](https://hipaa.jotform.com/app/242034369870156).",
+    "How do I get started with Plan2Peak?": "To begin, schedule a free consultation or complete our intake forms. This helps us understand your goals and create a personalized plan. You can schedule here (https://hipaa.jotform.com/app/242034369870156/210655982190156) or complete intake forms (https://hipaa.jotform.com/app/242034369870156).",
     "Can I use HSA or FSA funds to pay for Plan2Peak services?": "Yes, Plan2Peak services are eligible for payment through Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA). This makes it more accessible and affordable for individuals looking to invest in their health and performance.",
     "Why is cardiorespiratory fitness (CRF) important?": "CRF is a vital sign for overall health and longevity. Low CRF is a predictor of mortality, while higher CRF reduces the risk of chronic diseases like diabetes and cardiovascular issues."
 }
@@ -47,6 +47,7 @@ def chatbot():
                     "content": (
                         "You are the AI chatbot for Plan2Peak, specializing in personalized health and performance coaching for athletes, patients, "
                         "and healthcare providers. You have extensive knowledge about Plan2Peak, its services, programs, and outcomes, as well as about Peter Cummings, the Director of Health and Human Performance. "
+                        "Only provide accurate and verified information about Peter Cummings or Plan2Peak. If unsure, suggest scheduling a consultation. "
                         "After answering a user’s question, always encourage engagement by asking if they would like to schedule a free consultation or complete intake forms. "
                         "Maintain a supportive, professional tone that inspires confidence in Plan2Peak’s expertise."
                     )
@@ -72,4 +73,5 @@ def chatbot():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
 
