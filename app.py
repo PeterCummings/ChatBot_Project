@@ -45,8 +45,8 @@ def chatbot():
         # Append follow-up call-to-action with actionable links
         follow_up = (
             "Would you like to schedule a free consultation? "
-            "You can [schedule here](https://hipaa.jotform.com/app/242034369870156/210655982190156) or "
-            "[complete our intake forms](https://hipaa.jotform.com/app/242034369870156) to get started."
+            "You can schedule here (https://hipaa.jotform.com/app/242034369870156/210655982190156) or "
+            "you can complete our intake forms here (https://hipaa.jotform.com/app/242034369870156) to get started."
         )
         
         # Return the response with the follow-up
