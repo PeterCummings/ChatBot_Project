@@ -25,6 +25,7 @@ knowledge_base = {
     "Performance coaching plans": "Plan2Peak offers four levels of coaching plans with varying features: Level 1 includes monthly consultations. Level 1 pricing is $249/month. Level 2 includes biweekly consultations. Level 2 pricing is $329/month. Level 3 includes weekly consultations. Level 3 pricing is $359/month. Level 4 includes unlimited consultations. Level 4 pricing is $499/month.",
     "Client outcomes": "Plan2Peak clients experience measurable outcomes, such as improved cardiorespiratory fitness, successful disease management, reduction of medication and in some cases the elimination of the need for medication.",
     "Choosing a coaching plan": "The right coaching plan depends on your goals, budget, and the level of support you need. Speak with a Plan2Peak coach to determine the best option for you."
+    "You can see all four coaching plans <a href='https://www.plan2peak.com/coachingplans' target='_blank'>here.</a>"
 }
 
 @app.route("/", methods=["GET"])
