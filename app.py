@@ -11,7 +11,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Define a knowledge base for FAQs
 knowledge_base = {
-    "Peter Cummings": "Peter Cummings is the Director of Health and Human Performance at Plan2Peak. With over 30 years of experience, he is a metabolic health coach, endurance sport coach, educator, and lecturer. He has guided athletes to win 11 National Championships and helped patients reverse chronic conditions like Type 2 Diabetes.",
+    "Peter Cummings": "Peter Cummings is the Director of Health and Human Performance at Plan2Peak. Peter has over 30 years of experience. Peter is a metabolic health coach, endurance sport coach, educator, and lecturer. Peter has guided athletes to win 11 National Championships and helped patients reverse chronic conditions like Type 2 Diabetes.",
     "Peer-reviewed publications": "Peter Cummings is the lead author of two peer-reviewed articles in the American Journal of Preventive Medicine. These articles focus on lifestyle therapy and diabetes remission through personalized health interventions.",
     "Plan2Peak services": "Plan2Peak offers personalized health programs for patients and performance coaching for athletes, as well as RTM services for healthcare providers. Services include exercise prescription, metabolic health coaching, remote therapeutic monitoring, and documentation for billing.",
     "Remote therapeutic monitoring (RTM)": "RTM integrates Plan2Peak with healthcare providers to provide ongoing monitoring and coaching for patients. It supports managing chronic conditions like diabetes, obesity, and metabolic syndrome, while enabling providers to leverage insurance CPT codes for reimbursement.",
