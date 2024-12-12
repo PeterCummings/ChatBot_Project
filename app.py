@@ -11,7 +11,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Define a knowledge base for FAQs
 knowledge_base = {
-knowledge_base = {
     "Who is Peter Cummings?": "Peter Cummings is the Director of Health and Human Performance at Plan2Peak. With over 30 years of experience, he is a metabolic health coach, endurance sport coach, educator, and lecturer. He has guided athletes to win 11 National Championships and helped patients reverse chronic conditions like Type 2 Diabetes.",
     "Does Peter have any peer-reviewed publications?": "Yes, Peter is the lead author of two peer-reviewed articles in the American Journal of Preventive Medicine. These articles focus on lifestyle therapy and diabetes remission through personalized health interventions.",
     "What services does Plan2Peak provide?": "Plan2Peak offers personalized health and performance coaching for athletes, patients, and healthcare providers. Services include exercise prescription, metabolic health coaching, remote therapeutic monitoring, and athlete training plans tailored to individual goals.",
