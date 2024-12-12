@@ -19,9 +19,10 @@ knowledge_base = {
     "Can I use HSA or FSA funds to pay for Plan2Peak services?": "Yes, Plan2Peak services are eligible for payment through Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA). This makes it more accessible and affordable for individuals looking to invest in their health and performance.",
     "Why is cardiorespiratory fitness (CRF) important?": "CRF is a vital sign for overall health and longevity. Low CRF is a predictor of mortality, while higher CRF reduces the risk of chronic diseases like diabetes and cardiovascular issues.",
     "Who is Traci?": "Traci is an integral part of Plan2Peak, supporting the team with her expertise in client relations and administrative management. With years of experience in helping clients stay on track, Traci ensures every Plan2Peak member feels supported and valued.",
-    "What are Plan2Peak’s remote programs?": "Plan2Peak’s remote programs deliver personalized coaching and monitoring directly to clients through secure online platforms. This includes custom exercise prescriptions, nutrition guidance, and lifestyle coaching.",
-    "What do clients say about Plan2Peak?": "Clients praise Plan2Peak for its personalized approach and transformative results. Many have achieved their health goals, from reversing Type 2 Diabetes to winning championships.",
-    "What are the features of Plan2Peak’s coaching plans?": "Plan2Peak offers four levels of coaching plans with varying features: Level 1 includes monthly consultations ($249/month), Level 2 includes biweekly consultations ($329/month), Level 3 includes weekly consultations ($359/month), and Level 4 includes unlimited consultations ($499/month).",
+    "What are Plan2Peak’s remote health programs?": "Plan2Peak’s remote health programs deliver personalized coaching and monitoring directly to clients through secure online platforms. This includes custom exercise prescriptions, nutrition guidance, as well as health and lifestyle coaching.",
+    "What do clients say about Plan2Peak?": "Patients praise Plan2Peak for its personalized approach and transformative results. Many have achieved their health goals, from reversing Type 2 Diabetes to winning championships.",
+    "What is the price of the remote health program?: "Plan2Peak's remote health program, named the Get Healthy Program, is $359/month, and is HSA and FSA eligable."
+    "What are the features of Plan2Peak’s performance coaching plans?": "Plan2Peak offers four levels of coaching plans with varying features: Level 1 includes monthly consultations ($249/month), Level 2 includes biweekly consultations ($329/month), Level 3 includes weekly consultations ($359/month), and Level 4 includes unlimited consultations ($499/month).",
     "What results have Plan2Peak clients achieved?": "Plan2Peak clients experience measurable outcomes, such as improved cardiorespiratory fitness, successful disease management, and optimized athletic performance.",
     "How do I choose the right coaching plan?": "The right coaching plan depends on your goals, budget, and the level of support you need. Speak with a Plan2Peak coach to determine the best option for you."
 }
@@ -54,7 +55,8 @@ def chatbot():
                        "You are the AI chatbot for Plan2Peak, specializing in personalized health and performance coaching for athletes, patients, "
 "and healthcare providers. You have extensive knowledge about Plan2Peak, its services, programs, and outcomes, as well as about Peter Cummings, the Director of Health and Human Performance and Traci Cummings, President. "
 "Provide concise, accurate, and verified responses to user inquiries about Plan2Peak, Traci Cummings or Peter Cummings. Limit your responses to the most essential details to ensure clarity and brevity. "
-"If unsure, suggest scheduling a consultation for more detailed assistance. "
+"Your primary role is to provide accurate and verified information based on the Plan2Peak knowledge base. If the user asks a question outside the knowledge base or context provided, politely acknowledge that you don't have the specific information and suggest scheduling a consultation. Keep responses brief and to the point, while always encouraging engagement by offering actionable next steps like scheduling a consultation or completing intake forms."
+                        "If unsure, suggest scheduling a consultation for more detailed assistance. "
 "After answering a user’s question, encourage engagement by asking if they would like to schedule a free consultation or complete intake forms. "
 "Maintain a supportive, professional tone that inspires confidence in Plan2Peak’s expertise."
                     )
